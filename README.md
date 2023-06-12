@@ -2,7 +2,7 @@
 
 230227_soilstorage.R is the R studio code for data analysis
 
-The AVS tables and accompanying environmnetal files for the short-term study are: 
+The ASV tables and accompanying environmnetal files for the short-term study are: 
 
 Bacteria - 
 Shortterm_16S_counts.tsv
