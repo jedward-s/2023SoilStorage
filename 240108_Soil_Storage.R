@@ -19,22 +19,10 @@ library(mvabund)
 library(egg)
 
 
-mytheme <-   theme(panel.grid.minor=element_blank(), #gets rid of grey and lines in the middle
-                   panel.grid.major=element_blank(), #gets rid of grey and lines in the middle
-                   panel.background=element_rect(fill="white"),#gets rid of grey and lines in the middle
-                   #panel.border=element_blank(), #gets rid of square going around the entire graph
-                   panel.border = element_rect(colour = "black", fill=NA, size=1),
-                   axis.line = element_line(colour = 'black', size = 1),#sets the axis line size
-                   axis.ticks=element_line(colour = 'black', size = 1.5), #sets the tick lines
-                   axis.title.x = element_text( face="bold", size=14, color="black"), #size of x-axis title
-                   axis.title.y = element_text(face="bold", size=14, color="black"), #size of y-axis title
-                   axis.text.x = element_text(size=15, color="black"), #size of x-axis text
-                   axis.text.y = element_text( size=15, color="black"))#size of y-axis text
-
 
 
 #------read data short-term -------
-setwd("/Users/joe/Desktop/SoilStorageManuscript/Storage_repository")
+setwd("~/Storage_repository")
 
 ITS_data_raw <- read.table("Shortterm_ITS_counts.tsv", header = T, row.names = 1, check.names = F, sep = "\t")
 
